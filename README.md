@@ -1,0 +1,7 @@
+**Author: Nikhil Anand
+**Date: 8/14/2018
+**Files Uploaded: bin.cpp,bin.txt, binIP.cpp, binEC.txt and README.md, testcase1.ltx, testcase2.ltx, testcase3.ltx
+**Instructions: The bin.cpp file is the file that needs to be executed. To execute it you first compile it using "g++ bin.cpp". Then you run it by typing
+** "./a.out bin.txt". The output of this file will first print out the testcases of part b, and the firstFit results and the Decreasing FirstFit results in ** a **line by line output in the terminal, then it will print a line to separate for part c and run the code that inputs 1000 test cases of random data into ** the **algorithms and checks which algorithm is getting more accurate results, and prints out the final summary of the test cases by showing how many ties ** there were **and how many times FirstFit had a greater result than the Decreasing FirstFit function.
+** EXTRA CREDIT: To run the extra credit first compile, "g++ binIP.cpp", then run "./a.out", make sure that you have a file called bin.txt which is the file that ** this program reads from. After binIP.cpp is executed it will create 3 files called testcase1.ltx, testcase2.ltx, etc depending on the number of test cases in
+** the bin.txt file. These .ltx files can be used in LINDO to find the optimal solutions to the bin packing problems. The test case files also are included but **will be overwritten if this is executed with new bin.txt data.
